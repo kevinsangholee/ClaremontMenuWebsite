@@ -43,13 +43,14 @@ $(document).ready(function() {
                     $.each(response, function(i, review) {
                         $(foodCell).next().append(
                             "<div class='review_bubble'><div class='review_stars'></div>"
+                            + "<h3>Created at: " + review.created_at + "</h3>"
                             + "<h2>" + review.review_text + "</h2>"                            
-                            + "<hr/><h3>Created at: " + review.created_at + "</h3>" +
-                            "</div>");
+                            + "</div>");
                         var star = $('.review_stars');
                         $(star).rateYo({
                             rating: review.rating,
-                            readOnly: true
+                            readOnly: true,
+                            starWidth: "20px"
                         })
                     });
 

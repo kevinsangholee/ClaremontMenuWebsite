@@ -236,8 +236,15 @@ div.tabs button.active {
     background-color: #5189E2;
     border-radius: 15px;
     padding: 5px 15px; 
+    margin: 0px -15px;
 }
 
 .review_stars {
     display: block;
+}
+
+.review_bubble .review_stars {
+    padding: 0;
+    margin-top: 5px;
+    display: inline-block;   
 }
