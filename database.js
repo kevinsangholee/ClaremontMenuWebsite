@@ -2,11 +2,11 @@ var mysql = require('promise-mysql');
 var async = require('async');
 
 var pool = mysql.createPool({
-  host: "claremontmenu.com",
-  user: "claremo7_klee",
-  password: "Getoutofhere!369",
-  database: "claremo7_claremontmenu",
-  connectionLimit: 100
+  host: "jj820qt5lpu6krut.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+  user: "vc568j0frxncao3a",
+  password: "yq4trluh9rq7tvkt",
+  database: "pzw6eam7d8a9orvg",
+  connectionLimit: 5
 });
 
 module.exports = {
