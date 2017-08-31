@@ -6,7 +6,7 @@ var pool = mysql.createPool({
   user: "vc568j0frxncao3a",
   password: "yq4trluh9rq7tvkt",
   database: "pzw6eam7d8a9orvg",
-  connectionLimit: 5
+  connectionLimit: 8
 });
 
 module.exports = {
